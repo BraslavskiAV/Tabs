@@ -19,7 +19,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 30px;
     border-left: 1px solid #C6CBCD;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -35,7 +35,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height:30px;
     border-bottom: 1px solid #C6CBCD;
 }
 .tab3{
@@ -48,7 +48,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 30px;
     border-bottom: 1px solid #C6CBCD;
 }
 .tab4{
@@ -60,12 +60,12 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 30px;
     border-bottom: 1px solid #C6CBCD;
     color: white;
 }
 .block{
-    height: 520px;
+    height: 500px;
     border-left: 1px solid;
     border-bottom: 1px solid;
     border-right: 1px solid;
@@ -73,7 +73,9 @@
 }
 .block-text{
     display: inline-block;
-    width: 694px;
+    width: 500px;
+    vertical-align:top;
+    margin: 0px 84px 10px 110px;
 }
 .block-title{
     color: #000;
@@ -81,10 +83,12 @@
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 45px;
 }
 .block-subtitle{
     color: #000;
-    font-family: Raleway;
+    font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -93,6 +97,9 @@
 }
 .block-img{
     display: inline-block;
+}
+.statue{
+    height: 500px;
 }
 .block-text-download{
     display: flex;
